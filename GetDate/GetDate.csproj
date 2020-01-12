@@ -28,7 +28,7 @@
     </AssemblyInfoVersionSettings>
     <AssemblyInfoVersionSemVerSettings>AssemblyFileVersion.IncrementWithAutoReset.None</AssemblyInfoVersionSemVerSettings>
     <PrimaryVersionType>AssemblyFileVersionAttribute</PrimaryVersionType>
-    <AssemblyVersion>1.1.4.7316</AssemblyVersion>
+    <AssemblyVersion>1.1.5.7316</AssemblyVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
