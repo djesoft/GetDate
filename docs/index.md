@@ -26,7 +26,14 @@ After all values are output the number of valid date/time parameters is output t
 
 ## EXAMPLE
 
+To get the number of minutes between Jan 1 2000 and the two dates and times Jun 6 2012 at 6:52 PM and Jun 24 2012 at 11:27 AM
+
+You would enter:
+
 `GetDate "06/06/2012 18:52" "24/06/2012 11:27"`
+
+The output would be as follows
 
 `6538732 6564207 2`
 
+As can be seen it reutens the two values for the number of minutes and a third value showing it successfully processed two date/time parameters.
