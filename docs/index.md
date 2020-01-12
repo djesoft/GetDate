@@ -20,9 +20,7 @@ If a date/time parameter is invalid it will be skipped.
 
 After all values are output the number of valid date/time parameters is output too.
 
-
-
-
+* * *
 
 ## EXAMPLE
 
