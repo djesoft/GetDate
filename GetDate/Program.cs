@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace GetDate
 {
@@ -53,7 +55,7 @@ namespace GetDate
         private static void DisplayHelp()
         {
             string ConAppName = Path.GetFileNameWithoutExtension(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
-            Console.WriteLine("{0} v.{1} - HELP\n", ConAppName, Assembly.GetExecutingAssembly().GetName().Version);
+            Console.WriteLine("{0} {1} - HELP\n", ConAppName, FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).ProductVersion);
             Console.WriteLine("For each date/time group a value is output giving the number of minutes\nbetween 01/01/2000 00:00 and the input date/time.");
             Console.WriteLine("After all values are output the number of values is output too.");
             Console.WriteLine("If a date/time group cannot be understood it will be skipped.\n\n USAGE\n");
