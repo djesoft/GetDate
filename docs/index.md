@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# fred
+# GetDate
 
 ## Usage
 
