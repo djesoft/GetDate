@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# GetDate
+
 ## Usage
 
 **GetDate** [DT1] [DT2] ... [DTn] [pause]
