@@ -12,7 +12,7 @@ This format is usually dd/mm/yyyy hh:mm
 
 Since this contains a space do make sure to enclose the date/time between double quotes
 
-`pause` waits for a key press after output displayed before continuing. This has to be the last parameter.
+[pause] waits for a key press after output displayed before continuing. This has to be the last parameter.
 
 For each date/time paremeter a value is output giving the number of minutes between 01/01/2000 00:00 and the given date/time.
 
@@ -26,7 +26,7 @@ After all values are output the number of valid date/time parameters is output t
 
 ## EXAMPLE
 
-**GetDate** "06/06/2012 18:52" "24/06/2012 11:27"
+`**GetDate** "06/06/2012 18:52" "24/06/2012 11:27"`
 
-6538732 6564207 2
+`6538732 6564207 2`
 
