@@ -26,7 +26,7 @@ After all values are output the number of valid date/time parameters is output t
 
 ## EXAMPLE
 
-`**GetDate** "06/06/2012 18:52" "24/06/2012 11:27"`
+`GetDate "06/06/2012 18:52" "24/06/2012 11:27"`
 
 `6538732 6564207 2`
 
