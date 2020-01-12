@@ -34,4 +34,4 @@ The output would be as follows
 
 `6538732 6564207 2`
 
-As can be seen it reutens the two values for the number of minutes and a third value showing it successfully processed two date/time parameters.
+As can be seen it returns the two values for the number of minutes and a third value showing it successfully processed two date/time parameters.
